@@ -358,7 +358,7 @@ body::-webkit-scrollbar {
     pointer-events: none;
     z-index: 9999;
     transition: opacity 0.5s;
-    opacity: 0;
+    opacity: 1;
 }
 
 .connect-section {

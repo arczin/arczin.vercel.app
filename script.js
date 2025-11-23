@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const disableBtn = document.getElementById('disable-follow-btn');
     const disableBtn2 = document.getElementById('disable-follow-btn-2');
-    let followEnabled = false;
+    let followEnabled = true;
 
     function toggleFollow() {
         followEnabled = !followEnabled;
